@@ -5,9 +5,10 @@ public class Gugudan2 {
     public static void main(String[] args) {
     	
     	System.out.println("구구단 중 출력할 단은? : ");
-        Scanner scanner = new Scanner(System.in);
-        int number1 = scanner.nextInt();
-        int number2 = scanner.nextInt();
+        Scanner sc = new Scanner(System.in);
+        
+        int number1 = sc.nextInt();
+        int number2 = sc.nextInt();
  
         int result = number1 * 1;
         System.out.println(result);
