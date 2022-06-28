@@ -11,7 +11,7 @@ public class Last2 {
         int first = Integer.parseInt(splitedValue[0]);
         int second = Integer.parseInt(splitedValue[1]);
         
-        int[] result = new int[9];
+        int[] result = new int[30];
         
         for (int j = 2; j <=first; j++) {
         	for (int i = 0; i < second ; i++) {

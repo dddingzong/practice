@@ -9,7 +9,7 @@ public class Last {
         
         int number = sc.nextInt();
         
-        int[] result = new int[9];
+        int[] result = new int[30];
         
         for (int j = 2; j <=number; j++) {
         	for (int i = 0; i < number ; i++) {
